@@ -1,7 +1,7 @@
 This repository contain all elements required for the DIY Transcriptomics course. 
 
 Elements are organized in separate folders: 
-- raw_data_fasq_files;
+- raw_data_fastq_files;
 - fastqc;
 - multiqc_data;
 - kallisto_mappedReads.
