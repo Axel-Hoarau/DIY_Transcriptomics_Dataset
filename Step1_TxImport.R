@@ -56,6 +56,10 @@ listMarts() #default host is ensembl.org, and most current release of mammalian 
 # Instead I used the following code and it worked 
 listMarts(host="www.ensembl.org")
 
+
+# Help provided by TA 
+library(devtools)
+devtools::install_version("dbplyr", version = "2.3.4")
 #listMarts(host="parasite.wormbase.org") #access to parasite worm genomes
 #listMarts(host="protists.ensembl.org") #access to protozoan genomes
 
